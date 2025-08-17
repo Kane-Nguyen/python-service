@@ -24,10 +24,10 @@ python-jose==3.3.0
 cryptography
 
 # Face recognition / CV
-opencv-python==4.5.5.64
+opencv-python-headless==4.8.1.78
 dlib==19.24.0
 numpy>=1.24,<2.0
 torch==2.8.0
-torchvision==0.23.0
+torchvision==0.23.1
 ultralytics
-facenet-pytorch==2.5.2
+facenet-pytorch==2.2.10
