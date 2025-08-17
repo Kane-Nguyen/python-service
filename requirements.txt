@@ -4,7 +4,7 @@ uvicorn==0.22.0
 python-multipart==0.0.6
 requests
 
-# LangChain stack
+# LangChain stack (keep lightweight)
 langchain
 langchain-community
 openai
@@ -13,7 +13,6 @@ python-docx
 docx2txt
 pypdf
 tiktoken
-faiss-cpu==1.7.4
 
 # MongoDB
 motor==2.5.1
@@ -26,8 +25,6 @@ cryptography
 # CV / Face recognition
 opencv-python-headless==4.8.1.78
 numpy>=1.24,<2.0
-ultralytics==8.3.179
-facenet-pytorch==2.4.1
-
-# Heavy packages installed separately via index-url
-dlib==19.22.0
+facenet-pytorch==2.4.1  # Includes MTCNN + FaceNet
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
