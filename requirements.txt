@@ -25,9 +25,9 @@ cryptography
 
 # Face recognition / CV
 opencv-python-headless==4.8.1.78
-dlib==19.24.0
+dlib==19.22.0
 numpy>=1.24,<2.0
-torch==2.0.1
-torchvision==0.15.2
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
 ultralytics==8.3.179
 facenet-pytorch==2.4.1
