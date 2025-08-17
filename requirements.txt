@@ -4,7 +4,7 @@ uvicorn==0.22.0
 python-multipart==0.0.6
 requests
 
-# LangChain chatbot stack
+# LangChain stack
 langchain
 langchain-community
 openai
@@ -13,7 +13,7 @@ python-docx
 docx2txt
 pypdf
 tiktoken
-faiss-cpu==1.7.4  # pip will use prebuilt wheel
+faiss-cpu==1.7.4
 
 # MongoDB
 motor==2.5.1
@@ -29,7 +29,5 @@ numpy>=1.24,<2.0
 ultralytics==8.3.179
 facenet-pytorch==2.4.1
 
-# Prebuilt heavy packages
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
+# Heavy packages installed separately via index-url
 dlib==19.22.0
