@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "api",
+            "use": "@vercel/python3.10-slim"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "api/main.py"
+        }
+    ]
+}

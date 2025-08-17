@@ -1,0 +1,43 @@
+# FastAPI & Uvicorn
+fastapi==0.95.2
+uvicorn==0.22.0
+
+# LangChain chatbot stack
+langchain
+langchain-community
+openai
+PyPDF2
+python-docx
+faiss-cpu
+docx2txt
+pypdf
+tiktoken
+uuid
+
+# File upload
+python-multipart==0.0.6
+
+# MongoDB
+motor==2.5.1
+pymongo==3.12.3
+dnspython==2.4.2
+
+# Firebase Admin SDK
+firebase-admin==6.4.0
+
+# Auth
+python-jose==3.3.0
+cryptography
+
+# Face recognition
+opencv-python==4.5.5.64
+face-recognition==1.3.0
+dlib==19.22.0
+numpy==1.21.4
+
+# Deep learning / YOLO / embeddings
+ultralytics
+torch==2.5.1
+torchvision
+facenet-pytorch
+
