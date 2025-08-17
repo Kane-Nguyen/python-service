@@ -1,7 +1,14 @@
+# Install system packages needed for building dlib, etc.
+build:
+  packages:
+    - cmake
+    - build-essential
+    - libboost-all-dev
+
 services:
   - type: web
-    name: my-fastapi-app
+    name: do-it-study
     env: python
+    pythonVersion: "3.11"
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
-    plan: free
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
