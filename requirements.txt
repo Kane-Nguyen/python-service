@@ -13,7 +13,7 @@ python-docx
 docx2txt
 pypdf
 tiktoken
-faiss-cpu
+faiss-cpu==1.7.4  # pip will use prebuilt wheel
 
 # MongoDB
 motor==2.5.1
@@ -23,11 +23,13 @@ dnspython==2.4.2
 python-jose==3.3.0
 cryptography
 
-# Face recognition / CV
+# CV / Face recognition
 opencv-python-headless==4.8.1.78
-dlib==19.22.0
 numpy>=1.24,<2.0
-torch==2.0.1
-torchvision==0.15.2
 ultralytics==8.3.179
 facenet-pytorch==2.4.1
+
+# Prebuilt heavy packages
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+dlib==19.22.0
