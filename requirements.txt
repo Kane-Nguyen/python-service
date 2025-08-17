@@ -27,7 +27,8 @@ cryptography
 opencv-python-headless==4.8.1.78
 dlib==19.24.0
 numpy>=1.24,<2.0
-torch==2.8.0
-torchvision==0.23.0
-ultralytics==8.3.179
+torch==2.0.1
+torchvision==0.15.2
 facenet-pytorch==2.2.10
+ultralytics==8.3.179
+
