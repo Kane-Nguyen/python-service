@@ -39,4 +39,6 @@ ultralytics
 torch==2.5.1
 torchvision
 facenet-pytorch
+protobuf>=3.19.5,<5.0.0
+
 
